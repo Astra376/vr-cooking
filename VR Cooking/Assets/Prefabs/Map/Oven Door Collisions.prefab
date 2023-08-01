@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5370578137502303298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4651595322953819360}
+  m_Layer: 0
+  m_Name: Oven Door Collisions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4651595322953819360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5370578137502303298}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0.512, y: 0.2341, z: -0.0764}
+  m_LocalScale: {x: 11.314006, y: 11.314006, z: 11.314006}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7492175373206285266}
+  - {fileID: 1450186132271492827}
+  m_Father: {fileID: 0}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1450186132271492826
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4651595322953819360}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8429655
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8178806
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9879636
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.35777932
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11128559
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01546755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000005960465
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000005960465
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      propertyPath: m_Name
+      value: Oven Door
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7534616632809686457}
+  m_SourcePrefab: {fileID: 100100000, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+--- !u!4 &1450186132271492827 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+  m_PrefabInstance: {fileID: 1450186132271492826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7832425377847030120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 457799035713f894fa25acafba4c94ff, type: 3}
+  m_PrefabInstance: {fileID: 1450186132271492826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7534616632809686457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7832425377847030120}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0036134822, y: 0.031560387, z: 0.020801911}
+  m_Center: {x: -0.00007822873, y: 0.00014792572, z: -0.0065340768}
+--- !u!1001 &6949956597600652345
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4651595322953819360}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8429655
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9396788
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.1471996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3579634
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.111101225
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01662542
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000005960465
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000005960465
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cfece3e0ad3e32449bc040a725d755f0, type: 2}
+    - target: {fileID: 919132149155446097, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+      propertyPath: m_Name
+      value: Oven Door Glass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+--- !u!4 &7492175373206285266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2f903c8c78d427b4f94d2bd0e9879e7a, type: 3}
+  m_PrefabInstance: {fileID: 6949956597600652345}
+  m_PrefabAsset: {fileID: 0}
